@@ -286,7 +286,7 @@ client.on('ready', () => {
 client.user.setGame('Music II 2Play ','https://www.twitch.tv/kemo355');
 console.log('Logging into discord..');
 console.log(`
-By Ҝ€₥σ
+By MR_Phantom
 `);
 
 });
@@ -301,6 +301,6 @@ By Ҝ€₥σ
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "522362483080691712" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "522362656531677184" && ch.type === 'voice').join();
 });
 client.login(process.env.BOT_TOKEN);
